@@ -15,9 +15,13 @@ body{
 
 .wrapper{
     position: relative;
-    width:1440px;
-    min-height: 100vh;
+    /* width:1440px;
+    min-height: 100vh; */
     margin: auto;
+
+    height: 1388px;
+    width: 1440px;
+
     /* background-color: dodgerblue; */
 }
 
@@ -35,6 +39,16 @@ body{
     line-height: 67px;
 }
 
+ .brand-img{
+    position: absolute;
+    height: 47.64px;
+    width: 193px;
+    left: 221px;
+    top: 50.2525634765625px;
+    border-radius: 0px;
+
+ }
+
 .text{
     position:absolute;
     width: 394px;
@@ -46,4 +60,93 @@ body{
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
+}
+
+.app-store-btn{
+    position: absolute;
+    height: 46.277523040771484px;
+    width: 138.44346618652344px;
+    left: 221px;
+    top: 531px;
+    border-radius: 0px;
+
+}
+.app-store-btn img{
+    height: 46.277523040771484px;
+    width: 138.44346618652344px;
+}
+
+.google-play-btn{
+    position:absolute;
+    height: 46.27737045288086px;
+    width: 156.18612670898438px;
+    left: 381.8138732910156px;
+    top: 531px;
+    border-radius: [object Object]px;
+}
+
+
+.google-play-btn img{
+    height: 46.27737045288086px;
+    width: 156.18612670898438px;
+}
+
+.main-image-container{
+    position: absolute;
+    height: 309.2696533203125px;
+    width: 535.7173461914062px;
+    left: 683.28271484375px;
+    top: 229.7303466796875px;
+    border-radius: 0px;
+}
+
+.main-image-container img{
+    height: 411.15px;
+}
+
+
+.profile-img{
+    position: absolute;
+    height: 444.0000000000001px;
+    width: 224.00000000000006px;
+    left: 737.0001220703125px;
+    top: 686px;
+    border-radius: 0px;
+}
+
+.orders-img{
+    position: absolute;
+    height: 470.0000000000001px;
+    width: 224.00000000000006px;
+    left: 479px;
+    top: 913px;
+    border-radius: 0px;
+}
+
+.home-img{
+    position: absolute;
+    height: 470.0000000000001px;
+    width: 224.00000000000006px;
+    left: 995px;
+    top: 908px;
+    border-radius: 0px;
+}
+
+
+.cart-img{
+    position: absolute;
+    height: 222.0000000000001px;
+    width: 224.00000000000006px;
+    left: 221px;
+    top: 1157px;
+    border-radius: 0px;
+}
+
+.product-img{
+    position: absolute;
+    height: 222.0000000000001px;
+    width: 224.00000000000006px;
+    left: 737px;
+    top: 1157px;
+    border-radius: 0px;
 }
