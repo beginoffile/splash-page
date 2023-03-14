@@ -1,0 +1,1 @@
+(()=>{"use strict";var a=document.body;window.changeBackground=function(c){var s;a.className&&(s=a.className);switch(a.className="",c){case"1":return"background-1"!==s&&a.classList.add("background-1");case"2":return"background-2"!==s&&a.classList.add("background-2");case"3":return"background-3"!==s&&a.classList.add("background-3")}}})();
